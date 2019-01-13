@@ -1,8 +1,6 @@
 def isPrime(x):
-    if x == 1:
+    if x < 2:
         return False
-    elif x == 2:
-        return True
     else:
         for i in range(2, x):
             if x % i == 0:
